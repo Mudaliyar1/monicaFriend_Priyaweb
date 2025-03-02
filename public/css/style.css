@@ -81,7 +81,7 @@ header {
     width: 100vw;
     height: 100vh;
     margin: 0px;
-    background-color: red;
+    background-color: grey;
     position: fixed;
     display: none;
     padding: 0px;
