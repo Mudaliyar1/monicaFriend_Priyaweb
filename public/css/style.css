@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+background-repeat:no-repeat;
+background-size: cover;
+margin: 0px;
+
+}
+#header{
+    width: 1500px;
+    height: 350px;
+    border-bottom: 1px solid black;
+    background-color: black;
+    background-image: url(banner.jpg);
+    opacity: 0.-1;
+   
+}
+
+#mov{
+    color: red;
+    line-height: 95px;
+    text-align: center;
+    font-style: oblique;
+}
+
+
+.container1 {
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;  
+}
+
+
+
+aside {
+    
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    width: 110px;  /* Set width */
+    height: 200px; /* Set height */
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid black;
+
+}
+.p1{
+    background-image: url(thenmerku.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.p2{
+    background-image: url(pizza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.p3{
+    background-image: url(ndkpk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.p4{
+    background-image: url(soothu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.p5{
+    background-image: url(idapk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p6{
+    background-image: url(Rummy6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p7{
+    background-image: url(pannaiyar7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p8{
+    background-image: url(purampokku8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p9{
+    background-image: url(aaranji9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p10{
+    background-image: url(Rowdy10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p11{
+    background-image: url(sethupath11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p12{
+    background-image: url(kapo12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p13{
+    background-image: url(Iraivi13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p14{
+    background-image: url(dharma14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p15{
+    background-image: url(godrule15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p16{
+    background-image: url(rekka16.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p17{
+    background-image: url(kavan17.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p18{
+    background-image: url(vv18.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p19{
+    background-image: url(puthir19.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p20{
+    background-image: url(karupan20.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p21{
+    background-image: url(orunaalla.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p22{
+    background-image: url(junga.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.p23{
+    background-image: url(chekka\ vanam.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p24{
+    background-image: url(96.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p25{
+    background-image: url(seethkathi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.p26{
+    background-image: url(petta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+aside {
+    flex: 1;
+    padding: 20px;
+    background: #ddd;
+    margin-left: 20px;
+}
+section {
+    margin-top: 20px;
+}
